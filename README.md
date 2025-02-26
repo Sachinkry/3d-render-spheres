@@ -5,6 +5,6 @@ Website: https://3d-render-spheres.vercel.app
 
 #### Other projects:
 
-- entangled spheres
-- earth simulation
-- wormhole tunnel
+- [entangled spheres](https://3d-render-spheres.vercel.app/entangled_spheres/index.html)
+- [earth simulation](https://3d-render-spheres.vercel.app/earth/index.html)
+- [wormhole tunnel](https://3d-render-spheres.vercel.app/wormhole_tunnel/index.html)
