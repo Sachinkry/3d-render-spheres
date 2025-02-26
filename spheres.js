@@ -12,7 +12,7 @@ document.body.appendChild(renderer.domElement);
 const uiContainer = document.createElement('div');
 uiContainer.style.position = 'absolute';
 uiContainer.style.top = '10px';
-uiContainer.style.left = '10px';
+uiContainer.style.right = '10px';
 uiContainer.style.color = 'white';
 uiContainer.style.fontFamily = 'Arial, sans-serif';
 uiContainer.style.fontSize = '16px';
@@ -54,9 +54,11 @@ controls.dampingFactor = 0.03;
 const highDetailGeo = new THREE.SphereGeometry(0.5, 8, 8);
 const mediumDetailGeo = new THREE.SphereGeometry(0.5, 6, 6);
 const lowDetailGeo = new THREE.SphereGeometry(0.5, 4, 4);
-const mat = new THREE.MeshStandardMaterial({ color: 0x44ff88 });
+const mat = new THREE.MeshStandardMaterial({ 
+    color: 0x44ff88 
+}); 
 
-const count = 700000;
+const count = 1000000;
 const radius = 200;
 
 const highDetailMesh = new THREE.InstancedMesh(highDetailGeo, mat, count);

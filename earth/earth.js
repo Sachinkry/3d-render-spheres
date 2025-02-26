@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'jsm/controls/OrbitControls.js';
-// import getStarField from './sr'
 const w = window.innerWidth;
 const h = window.innerHeight;
 const renderer = new THREE.WebGLRenderer({antialias: true});
@@ -28,8 +27,6 @@ scene.add(earthGroup);
 const loader = new THREE.TextureLoader();
 const geo = new THREE.IcosahedronGeometry(1, 12); // Your original shape
 const mat = new THREE.MeshStandardMaterial({
-    // color: 0xffff00,
-    // flatShading: true,
     map: loader.load('../textures/8k_earth_daymap.jpg'),
 });
 const earthMesh = new THREE.Mesh(geo, mat);
