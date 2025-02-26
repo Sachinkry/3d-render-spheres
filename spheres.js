@@ -58,7 +58,7 @@ const mat = new THREE.MeshStandardMaterial({
     color: 0x44ff88 
 }); 
 
-const count = 1000000;
+const count = 700000;
 const radius = 200;
 
 const highDetailMesh = new THREE.InstancedMesh(highDetailGeo, mat, count);
